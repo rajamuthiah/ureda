@@ -1,4 +1,4 @@
-uReda: Shape analysis of high-throughput experiments data.
+ureda: Shape analysis of high-throughput experiments data.
 ==========================================================
 
 Provides tools for the "high-throughput" (u)nderstanding
