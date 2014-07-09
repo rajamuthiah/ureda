@@ -16,5 +16,5 @@ version of uReda from Github:
 
 ```r
 require(devtools)
-install_github("uReda", user="kokrah")
+install_github("ureda", user="kokrah")
 ```
