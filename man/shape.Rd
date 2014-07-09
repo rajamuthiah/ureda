@@ -3,21 +3,20 @@
 \alias{shape}
 \title{Sample L-moments ratios.}
 \usage{
-shape(x, ratios = TRUE, n = 4)
+shape(x, nlmom = 4, ratios = TRUE)
 }
 \arguments{
-\item{x}{sample (vector / matrix / data.frame).}
+\item{x}{Data (vector / matrix / data.frame).}
 
-\item{ratios}{Compute l-moments ratios instead of the raw l-moments? (logical, default = TRUE).}
+\item{nlmom}{The number of l-moments (ratios) to compute (Default = 4).}
 
-\item{n}{the number of l-moments (ratios) to compute. (a whole number, default = 4).}
+\item{ratios}{Compute sample l-moments ratios ? (logical, Default = TRUE).}
 }
 \value{
-a numeric vector of length n / matrix with 4 columns containing
-sample l-moments / l-moments ratios.
+A list holding sample l-ratios, sample l-moments, and weights.
 }
 \description{
-This function computes the l-moments ratios for a given
+This function computes the sample l-moments ratios for a given
 dataset (vector / matrix / data.frame).
 }
 

@@ -3,3 +3,4 @@
 export(kurt)
 export(shape)
 export(skew)
+export(weightMatrix)
