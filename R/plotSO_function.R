@@ -12,17 +12,17 @@ plotSO <- function(t3, t4,
                    data.name = "Data name (RNA-seq / Microarray)"){
 
   
-  data.pts.cex = 0.3,
-  data.pts.pch = 16,
-  data.med.lty = 1,
-  data.med.col="red", 
-  extreme.border.col = "black",
-  g = seq(-5, 5, 0.05),
-  h = seq(0.0, 0.5, 0.25),
-  gh.col="black",
-  normal.lty = 1,
-  data.pts.col = NULL,
-  grid = FALSE,
+  data.pts.cex = 0.3
+  data.pts.pch = 16
+  data.med.lty = 1
+  data.med.col="red" 
+  extreme.border.col = "black"
+  g = seq(-5, 5, 0.05)
+  h = seq(0.0, 0.5, 0.25)
+  gh.col="black"
+  normal.lty = 1
+  data.pts.col = NULL
+  grid = FALSE
   labcex = 0.6
   
   
